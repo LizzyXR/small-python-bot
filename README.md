@@ -5,3 +5,8 @@
 ### 3. python main.py
 
 ###### that's it
+
+#
+
+### To do
+### (*) update to slash commands
