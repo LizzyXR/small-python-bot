@@ -61,7 +61,7 @@ async def main():
 
     async with bot:
         await load()
-        await bot.start(token=token)
+        await bot.start(token=token) # env
 
 try:
     asyncio.run(main())
