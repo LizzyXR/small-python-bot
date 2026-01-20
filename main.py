@@ -13,7 +13,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
 
-bot = commands.Bot(command_prefix="!", intents=intents, activity=discord.Game(name="Спутник"))
+bot = commands.Bot(command_prefix="!", intents=intents, activity=discord.Game(name="Gay Furry Hentai Simulator"))
 
 @bot.event
 async def on_ready():
@@ -27,7 +27,7 @@ async def on_member_join(member):
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
-        return # don't respond to itself lol
+        return
 
     if message.content.startswith("!editme"):
         message = await message.channel.send("what's 9+10?")
